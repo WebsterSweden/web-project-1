@@ -1,4 +1,8 @@
-# Generic .gitignore settings.
+# =============================================================================
+# GENERIC SETTINGS START
+# =============================================================================
+
+# GitHub generic .gitignore settings.
 
 # Git version control. Global ignore .git directory.
 **/.git/
@@ -12,11 +16,25 @@
 **/*.sass.map
 **/*.scss.map
 
+# Visual Studio 2019. Global ignore Visual Studio 2019 directory.
+**/.vs/
+
 # Visual Studio Code. Global ignore Visual Studio Code directory.
 **/.vscode/
-**/.vs/
 
 # Windows operating system. Global ignore Thumbs.db files.
 **/Thumbs.db
 
+# =============================================================================
+# GENERIC SETTINGS STOP
+# =============================================================================
+
+# =============================================================================
+# SPECIFIC PROJECT SETTINGS START
+# =============================================================================
+
 # Project .gitignore settings.
+
+# =============================================================================
+# SPECIFIC PROJECT SETTINGS STOP
+# =============================================================================
